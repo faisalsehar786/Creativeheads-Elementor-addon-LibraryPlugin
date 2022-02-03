@@ -18,8 +18,8 @@ define('CHFS_PATH', plugin_dir_path(__FILE__));
 define('CHFS_URL', plugin_dir_url(__FILE__));
 define('CHFS_FILE', __FILE__);
 define('CHFS_SITE_URL',get_site_url());
-define('CHFS_API_URL','http://127.0.0.1:8000');
-define('CHFS_API_File_Path','http://localhost/elementoradd/api');
+define('CHFS_API_URL','http://abc4741.sg-host.com');
+define('CHFS_API_File_Path','http://abc4741.sg-host.com');
 function CHFS_getToken(){
 $post = wp_remote_retrieve_body(wp_remote_post(CHFS_API_URL.'/api/login', [
 'body' => [

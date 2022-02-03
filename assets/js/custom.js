@@ -68,6 +68,9 @@ res.data.map(function(key, index) {
 
         if (key.is_pro=='yes') {
             procheck="Pro";
+        }else{
+
+           procheck="Not Pro"; 
         }
   temp+=`<div class="CHFScol-lg-3 CHFSmy-2">
 <div class="CHFScard CHFSshadow-lg">
